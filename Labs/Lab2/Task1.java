@@ -13,8 +13,10 @@ public class Task1 {
         String operators = input.next();
 
 //Converting character into String
-        //String operators = String.valueOf(operator);
-        //System.out.println(((Object)operators).getClass().getSimpleName());
+        //String operator = String.valueOf(operator);
+        
+//Figuring the dataType of operator
+        //System.out.println(((Object)operator).getClass().getSimpleName());
 
 //Figuring the length
         //System.out.println("The length is: " + operators.length());
@@ -25,9 +27,9 @@ public class Task1 {
             int num2 = input.nextInt();
             int sum = num1 + num2;
             System.out.println( "Your Sum is " + sum);
-        }
+        }   
 
-        if(operators.equals("-")){
+        else if(operators.equals("-")){
             System.out.print("Enter your second integer:  ");
             int num2 = input.nextInt();
             int sub = num1 - num2;
