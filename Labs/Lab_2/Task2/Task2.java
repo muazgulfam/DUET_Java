@@ -6,5 +6,10 @@ public class Task2 {
         int conversion = input.nextInt();
         System.out.print("Your answer in HexaDecimal is: ");
         System.out.println(Integer.toHexString(conversion)); 
+
+        System.out.println("*-----------------------------------------------------------------*");
+        System.out.println("MUAZ BIN GULFAM");
+        System.out.println("BSCS-58");
+        System.out.println("*-----------------------------------------------------------------*");
     }
 }

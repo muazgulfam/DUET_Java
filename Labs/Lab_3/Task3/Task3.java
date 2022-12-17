@@ -43,17 +43,22 @@ public class Task3 {
             else if(percentage < 60){
                 grade = "Fail";
             }
+            
+            System.out.println("*-----------------------------------------------------------------*");
+            System.out.println("MUAZ BIN GULFAM");
+            System.out.println("BSCS-58");
+            System.out.println("*-----------------------------------------------------------------*");
 
             System.out.println("MarkSheet\n\n");
-            System.out.println("Basic Electronics              " + beMark );
-            System.out.println("Pro. Practice in Computing     " + ppcMark);
-            System.out.println("Technical Writing              " + tcMark);
-            System.out.println("Pakistan Studies               " + pstMark);
-            System.out.println("Object Oriented Programming    " + oopMark);
-            System.out.println("Total marks for 5 subject is   500");
-            System.out.println("Obtained Marks                 " + obtainedMarks);
-            System.out.println("Percentage                     " + percentage);
-            System.out.println("Grade                          " + grade); 
+            System.out.println("Basic Electronics                    " + beMark );
+            System.out.println("Pro. Practice in Computing           " + ppcMark);
+            System.out.println("Technical Writing                    " + tcMark);
+        System.out.println("Pakistan Studies                     " + pstMark);
+            System.out.println("Object Oriented Programming          " + oopMark);
+            System.out.println("Total marks for 5 subject is         500");
+            System.out.println("Obtained Marks                       " + obtainedMarks);
+            System.out.println("Percentage                           " + percentage);
+            System.out.println("Grade                                " + grade); 
         }
         else{System.out.println("\nInvalid marks \nsPlease enter correct marks! Total marks per subject is 100");}
     }

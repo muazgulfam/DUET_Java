@@ -33,5 +33,10 @@ public class Task2 {
 
         System.out.println("\nYour result is: " + result);
        //System.out.println(fnum + Operator + lnum + " = " + result);
+
+       System.out.println("*-----------------------------------------------------------------*");
+       System.out.println("MUAZ BIN GULFAM");
+       System.out.println("BSCS-58");
+       System.out.println("*-----------------------------------------------------------------*");
     }
 }

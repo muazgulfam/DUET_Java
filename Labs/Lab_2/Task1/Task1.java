@@ -232,5 +232,10 @@ public class Task1 {
             System.out.println(num1 >>>= num2);
         }
 
+        System.out.println("*-----------------------------------------------------------------*");
+        System.out.println("MUAZ BIN GULFAM");
+        System.out.println("BSCS-58");
+        System.out.println("*-----------------------------------------------------------------*");
+
     }
 }

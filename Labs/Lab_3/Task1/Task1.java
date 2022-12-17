@@ -15,6 +15,11 @@ public class Task1{
         System.out.println("Last name is: " + lname);
         System.out.println("Age is: " + age);
         System.out.println("Salary is: " + salary);
+
+        System.out.println("*-----------------------------------------------------------------*");
+        System.out.println("MUAZ BIN GULFAM");
+        System.out.println("BSCS-58");
+        System.out.println("*-----------------------------------------------------------------*");
     }
         
         
