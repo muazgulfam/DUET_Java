@@ -28,9 +28,9 @@ class Person{
 }
 
 class Student extends Person{
-    public int studentID;
-    public String course;
-    public String instructor;
+    private int studentID;
+    private String course;
+    private String instructor;
 
     //accessor/mutator methods
     public void setStudentID(int a){
@@ -52,6 +52,7 @@ class Student extends Person{
         return instructor;
     }
 
+    //Constructor
     Student(String a, String b, int c, String d, String e){
         super(a, b);
         studentID = c;
@@ -59,6 +60,7 @@ class Student extends Person{
         instructor = e;
     }
 
+    //Display Method
     public void displayDetails(){
         System.out.println("First Name: " + getFirstName());
         System.out.println("Lat Name: " + getLastName());
@@ -69,6 +71,7 @@ class Student extends Person{
     }
 }
 
+//Child class extending its parent class 
 class Teacher extends Person{
     String subjectName;
     int salary;
