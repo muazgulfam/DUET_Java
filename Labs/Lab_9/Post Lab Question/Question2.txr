@@ -1,0 +1,5 @@
+Q. Can we overload by return type?
+
+Ans. No, in Java it is not possible to overload a method based on its return type. Because the Java compiler distinguishes the
+    Methods by the type or amount of arguments in the Method. So, when a Method is overloaded with same amount or type of 
+    arguments but its return type is different, then the Java compiler enters in a state of ambiguity which results in Error. 

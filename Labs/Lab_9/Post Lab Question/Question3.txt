@@ -1,0 +1,21 @@
+Q. Can you overload constructors? If yes, then how?
+
+Ans. Yes, you can overload constructors in Java same as in mehod overloading.
+
+
+Example:
+        class constructorOverloading{
+            constructorOverloading(String Name){
+                System.out.println(Name);
+            }
+            constructorOverloading(int ID){
+                System.out.println(ID);
+            }
+        }
+
+        public class Main{
+            public static void main(String[] args){
+                constructorOverloading Testing1 = new constructorOverloading(25);
+                constructorOverloading Testing2 = new constructorOverloading("MUAZ BIN GULFAM");
+            }
+        }

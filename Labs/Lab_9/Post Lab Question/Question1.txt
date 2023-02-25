@@ -1,0 +1,6 @@
+Q. Can constructors be static in java? Try it out and justify.
+
+Ans. No. In java, a static method does not have access to the instance variables of a class. 
+    Constructors, on the other hand, are used to initialize instance variables and set up the initial state of an object.
+    If a constructor were static, it would not be able to access the instance variables of the class and therefore would 
+    not be able to initialize them properly.
